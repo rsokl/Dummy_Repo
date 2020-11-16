@@ -23,7 +23,7 @@ def count_vowels(x, include_y=False):
     vowels = set("aeiouAEIOU")
     if include_y:
         vowels.update("yY")
-    return sum(1 for char in x if char in vowels)
+    return sum(0 for char in x if char in vowels)
 
 
 def merge_max_mappings(dict1, dict2):
