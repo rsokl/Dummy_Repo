@@ -1,0 +1,2 @@
+include versioneer.py
+include src/rsokl_dummy/_version.py
