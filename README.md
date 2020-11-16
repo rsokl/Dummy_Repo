@@ -1,7 +1,7 @@
 # Dummy_Repo
 
-[![example workflow name](https://github.com/rsokl/Dummy_Repo/workflows/Tests/badge.svg)](https://github.com/rsokl/Dummy_Repo/actions?query=workflow%3ATests+branch%3Amain)
-[![PyPi version](https://img.shields.io/pypi/v/rsokl_dummy.svg)](https://pypi.python.org/pypi/rsokl_dummy)
+[![Automated tests status](https://github.com/rsokl/Dummy_Repo/workflows/Tests/badge.svg)](https://github.com/rsokl/Dummy_Repo/actions?query=workflow%3ATests+branch%3Amain)
+[![PyPi version status](https://img.shields.io/pypi/v/rsokl_dummy.svg)](https://pypi.python.org/pypi/rsokl_dummy)
 
 This repo exercises the following GitHub actions:
 - [Tests](https://github.com/rsokl/Dummy_Repo/blob/main/.github/workflows/tox_run.yml)
