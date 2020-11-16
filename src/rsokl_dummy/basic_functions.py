@@ -1,6 +1,10 @@
 __all__ = ["count_vowels", "merge_max_mappings"]
 
 
+def untested_func():
+    return 1
+
+
 def count_vowels(x, include_y=False):
     """Returns the number of vowels contained in `x`.
     The vowel 'y' is included optionally.
