@@ -18,6 +18,7 @@ This repo exercises the following GitHub actions:
   - This action will publish to pypi any time you [create a new release](https://github.com/rsokl/Dummy_Repo/releases/tag/v0.1.1); i.e. this
   new release will become available to users via `pip install rsokl_dummy`
 - [Publishing docs whenever the `main` branch gets updated](https://github.com/rsokl/Dummy_Repo/blob/main/.github/workflows/publish_docs.yml)
+  - The resulting documentation looks like [this](https://rsokl.github.io/Dummy_Repo/)
   - The `main` branch only houses the configuration and "plain text" source files for the documentation
   - The "action" is responsible for installing `sphinx` (and other dependencies specified in `docs/requirements.txt`), running sphinx, and
   publishing the resulting HTML to a separate `gh-pages` branch
