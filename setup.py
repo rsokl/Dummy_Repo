@@ -8,8 +8,9 @@ AUTHOR = "Ryan Soklaski"
 AUTHOR_EMAIL = "rsoklaski@gmail.com"
 URL = "https://github.com/rsokl/Dummy_Repo"
 
-# bug in windowshttps://developercommunity.visualstudio.com/content/problem/1207405/fmod-after-an-update-to-windows-2004-is-causing-a.html
-INSTALL_REQUIRES = ["1.19.4 > numpy >= 1.12"]
+# bug in windows blocks numpy 1.19.4
+# https://developercommunity.visualstudio.com/content/problem/1207405/fmod-after-an-update-to-windows-2004-is-causing-a.html
+INSTALL_REQUIRES = ["numpy >= 1.12, <= 1.19.3"]
 TESTS_REQUIRE = ["pytest >= 3.8", "hypothesis >= 4.53.2"]
 
 DESCRIPTION = "A dummy repo for testing CI/CD automation."
