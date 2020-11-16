@@ -4,15 +4,18 @@ __all__ = ["count_vowels", "merge_max_mappings"]
 def count_vowels(x, include_y=False):
     """Returns the number of vowels contained in `x`.
     The vowel 'y' is included optionally.
+
     Parameters
     ----------
     x : str
         The input string
     include_y : bool, optional (default=False)
         If `True` count y's as vowels
+
     Returns
     -------
     vowel_count: int
+
     Examples
     --------
     >>> count_vowels("happy")
@@ -29,16 +32,19 @@ def count_vowels(x, include_y=False):
 def merge_max_mappings(dict1, dict2):
     """ Merges two dictionaries based on the largest value
     in a given mapping.
+
     Parameters
     ----------
     dict1 : Dict[str, float]
     dict2 : Dict[str, float]
+
     Returns
     -------
     merged : Dict[str, float]
         The dictionary containing all of the keys common
         between `dict1` and `dict2`, retaining the largest
         value from common mappings.
+
     Examples
     --------
     >>> x = {"a": 1, "b": 2}

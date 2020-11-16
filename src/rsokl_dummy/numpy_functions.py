@@ -6,10 +6,12 @@ __all__ = ["pairwise_dists"]
 def pairwise_dists(x, y):
     """ Computing pairwise distances using memory-efficient
     vectorization.
+
     Parameters
     ----------
     x : numpy.ndarray, shape=(M, D)
     y : numpy.ndarray, shape=(N, D)
+
     Returns
     -------
     numpy.ndarray, shape=(M, N)
