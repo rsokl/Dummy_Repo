@@ -5,10 +5,12 @@ on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
+
     strategy:
       max-parallel: 3
       matrix:
         python-version: [3.6, 3.7, 3.8]
+      fail-fast: false
 
     steps:
     - uses: actions/checkout@v1
@@ -22,13 +24,14 @@ jobs:
         pip install tox tox-gh-actions
     - name: Test with tox
       run: tox -e py
-    fail-fast: false
+
 
   coverage:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ["3.7"]
+      fail-fast: false
 
     steps:
     - uses: actions/checkout@v1
