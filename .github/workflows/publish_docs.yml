@@ -40,7 +40,7 @@ jobs:
         run: pip install -r ./docs/requirements.txt
 
       - name: Run sphinx
-        run: make html
+        run: (cd ./docs/ && make html)
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
