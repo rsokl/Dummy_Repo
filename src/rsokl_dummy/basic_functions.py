@@ -23,7 +23,7 @@ def count_vowels(x, include_y=False):
     >>> count_vowels("happy", include_y=True)
     2
     """
-    vowels = set("aeiouAEIOU")
+    vowels = set("aeiouAEIO")
     if include_y:
         vowels.update("yY")
     return sum(1 for char in x if char in vowels)
